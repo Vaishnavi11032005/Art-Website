@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Photo Transfer Customizable Earrings</title>
   </head>
   <body>
     <!--Navigation Block-->
@@ -9,7 +9,7 @@
     <a href="earrings.html">Earrings</a>
     <a href="necklaces.html">Necklaces</a>
     <a href="about.html">About</a>
-    <h2></h2>
+    <h1>Photo Transfer Customizable Earrings</h1>
     <form>
       <!--Pick Shape of Earrings-->
       <section class="shape">
@@ -121,17 +121,19 @@
       </section>
       <br>
       <br>
-      <!--Enter Image Transfer URL-->
-       <section class="image URL">
-        <label for="URL">Enter a valid URL below for the image you would like to be transferred on your earrings</label>
-        <br>
-        <textarea id="URL" name="URL" rows="2" cols="57" required></textarea>
-       </section>
+       <!--Enter Image Transfer File-->
+       <label for="photo">Please attatch a JPEG or PNG file below of the image you would like to be transferred onto your jewelry </label>
+       <br>
+       <br>
+       <input type="file" id="photo" name="photo" accept="image/png, image/jpeg">
       <!--Enter Button-->
        <section class="submission">
+         <br>
+         <br>
          <input type="submit" value="Purchase">
        </section>
     </form>
   </body>
   
 </html>
+
